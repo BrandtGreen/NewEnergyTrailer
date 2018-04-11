@@ -1,0 +1,113 @@
+/* This file contains stub implementations of the AUTOSAR RTE functions.
+   The stub implementations can be used for testing the generated code in
+   Simulink, for example, in SIL/PIL simulations of the component under
+   test. Note that this file should be replaced with an appropriate RTE
+   file when deploying the generated code outside of Simulink.
+
+   This file is generated for:
+   Atomic software component:  "SwcCELCmgr"
+   ARXML schema: "4.2"
+   File generated on: "10-Apr-2018 09:27:03"  */
+
+#ifndef Rte_SwcCELCmgr_h
+#define Rte_SwcCELCmgr_h
+#include "Rte_Type.h"
+#include "Compiler.h"
+
+/* Data access functions */
+#define Rte_IRead_CELCmgr_CyclicTask_rpCELCmgrClimaSts_ClimaSts Rte_IRead_SwcCELCmgr_CELCmgr_CyclicTask_rpCELCmgrClimaSts_ClimaSts
+
+UInt8 Rte_IRead_CELCmgr_CyclicTask_rpCELCmgrClimaSts_ClimaSts(void);
+
+#define Rte_IStatus_CELCmgr_CyclicTask_rpCELCmgrClimaSts_ClimaSts Rte_IStatus_SwcCELCmgr_CELCmgr_CyclicTask_rpCELCmgrClimaSts_ClimaSts
+
+Std_ReturnType Rte_IStatus_CELCmgr_CyclicTask_rpCELCmgrClimaSts_ClimaSts(void);
+
+#define Rte_IRead_CELCmgr_CyclicTask_rpCELCmgrEgyAvltoWarn_EgyAvltoWarn Rte_IRead_SwcCELCmgr_CELCmgr_CyclicTask_rpCELCmgrEgyAvltoWarn_EgyAvltoWarn
+
+UInt16 Rte_IRead_CELCmgr_CyclicTask_rpCELCmgrEgyAvltoWarn_EgyAvltoWarn(void);
+
+#define Rte_IStatus_CELCmgr_CyclicTask_rpCELCmgrEgyAvltoWarn_EgyAvltoWarn Rte_IStatus_SwcCELCmgr_CELCmgr_CyclicTask_rpCELCmgrEgyAvltoWarn_EgyAvltoWarn
+
+Std_ReturnType Rte_IStatus_CELCmgr_CyclicTask_rpCELCmgrEgyAvltoWarn_EgyAvltoWarn
+  (void);
+
+#define Rte_IRead_CELCmgr_CyclicTask_rpCELCmgrEgyClimaDes_EgyClimaDes Rte_IRead_SwcCELCmgr_CELCmgr_CyclicTask_rpCELCmgrEgyClimaDes_EgyClimaDes
+
+UInt16 Rte_IRead_CELCmgr_CyclicTask_rpCELCmgrEgyClimaDes_EgyClimaDes(void);
+
+#define Rte_IStatus_CELCmgr_CyclicTask_rpCELCmgrEgyClimaDes_EgyClimaDes Rte_IStatus_SwcCELCmgr_CELCmgr_CyclicTask_rpCELCmgrEgyClimaDes_EgyClimaDes
+
+Std_ReturnType Rte_IStatus_CELCmgr_CyclicTask_rpCELCmgrEgyClimaDes_EgyClimaDes
+  (void);
+
+#define Rte_IRead_CELCmgr_CyclicTask_rpCELCmgrUsageMod_UsageMod Rte_IRead_SwcCELCmgr_CELCmgr_CyclicTask_rpCELCmgrUsageMod_UsageMod
+
+UInt8 Rte_IRead_CELCmgr_CyclicTask_rpCELCmgrUsageMod_UsageMod(void);
+
+#define Rte_IStatus_CELCmgr_CyclicTask_rpCELCmgrUsageMod_UsageMod Rte_IStatus_SwcCELCmgr_CELCmgr_CyclicTask_rpCELCmgrUsageMod_UsageMod
+
+Std_ReturnType Rte_IStatus_CELCmgr_CyclicTask_rpCELCmgrUsageMod_UsageMod(void);
+
+#define Rte_IWrite_CELCmgr_CyclicTask_spEgyLvlChk_EgyLvlChk Rte_IWrite_SwcCELCmgr_CELCmgr_CyclicTask_spEgyLvlChk_EgyLvlChk
+
+void Rte_IWrite_CELCmgr_CyclicTask_spEgyLvlChk_EgyLvlChk(UInt8 u);
+
+#define Rte_IWriteRef_CELCmgr_CyclicTask_spEgyLvlChk_EgyLvlChk Rte_IWriteRef_SwcCELCmgr_CELCmgr_CyclicTask_spEgyLvlChk_EgyLvlChk
+
+UInt8* Rte_IWriteRef_CELCmgr_CyclicTask_spEgyLvlChk_EgyLvlChk(void);
+
+#define Rte_IWrite_CELCmgr_CyclicTask_spEgyCnsAllwdForClima_EgyCnsAllwdForClima Rte_IWrite_SwcCELCmgr_CELCmgr_CyclicTask_spEgyCnsAllwdForClima_EgyCnsAllwdForClima
+
+void Rte_IWrite_CELCmgr_CyclicTask_spEgyCnsAllwdForClima_EgyCnsAllwdForClima
+  (UInt16 u);
+
+#define Rte_IWriteRef_CELCmgr_CyclicTask_spEgyCnsAllwdForClima_EgyCnsAllwdForClima Rte_IWriteRef_SwcCELCmgr_CELCmgr_CyclicTask_spEgyCnsAllwdForClima_EgyCnsAllwdForClima
+
+UInt16*
+  Rte_IWriteRef_CELCmgr_CyclicTask_spEgyCnsAllwdForClima_EgyCnsAllwdForClima
+  (void);
+
+#define Rte_IWrite_CELCmgr_CyclicTask_spEgySysCmd_EgySysCmd Rte_IWrite_SwcCELCmgr_CELCmgr_CyclicTask_spEgySysCmd_EgySysCmd
+
+void Rte_IWrite_CELCmgr_CyclicTask_spEgySysCmd_EgySysCmd(UInt8 u);
+
+#define Rte_IWriteRef_CELCmgr_CyclicTask_spEgySysCmd_EgySysCmd Rte_IWriteRef_SwcCELCmgr_CELCmgr_CyclicTask_spEgySysCmd_EgySysCmd
+
+UInt8* Rte_IWriteRef_CELCmgr_CyclicTask_spEgySysCmd_EgySysCmd(void);
+
+#define Rte_IWrite_CELCmgr_CyclicTask_spEgyLoadFctReq_EgyLoadFctReq Rte_IWrite_SwcCELCmgr_CELCmgr_CyclicTask_spEgyLoadFctReq_EgyLoadFctReq
+
+void Rte_IWrite_CELCmgr_CyclicTask_spEgyLoadFctReq_EgyLoadFctReq(UInt8 u);
+
+#define Rte_IWriteRef_CELCmgr_CyclicTask_spEgyLoadFctReq_EgyLoadFctReq Rte_IWriteRef_SwcCELCmgr_CELCmgr_CyclicTask_spEgyLoadFctReq_EgyLoadFctReq
+
+UInt8* Rte_IWriteRef_CELCmgr_CyclicTask_spEgyLoadFctReq_EgyLoadFctReq(void);
+
+/* Entry point functions */
+extern FUNC(void, SwcCELCmgr_CODE) CELCmgr_Init(void);
+extern FUNC(void, SwcCELCmgr_CODE) CELCmgr_CyclicTask(void);
+
+/* Parameters */
+extern UInt16 Rte_CData_CELCmgr_TEgyChkTime_5min_data;
+
+#define Rte_CData_CELCmgr_TEgyChkTime_5min Rte_CData_SwcCELCmgr_CELCmgr_TEgyChkTime_5min
+
+UInt16 Rte_CData_CELCmgr_TEgyChkTime_5min(void);
+extern UInt8 Rte_CData_CELCmgr_EgyClimaAllwdFac_data;
+
+#define Rte_CData_CELCmgr_EgyClimaAllwdFac Rte_CData_SwcCELCmgr_CELCmgr_EgyClimaAllwdFac
+
+UInt8 Rte_CData_CELCmgr_EgyClimaAllwdFac(void);
+extern UInt8 Rte_CData_CELCmgr_EgyCnsAllwdForClimaMax_data;
+
+#define Rte_CData_CELCmgr_EgyCnsAllwdForClimaMax Rte_CData_SwcCELCmgr_CELCmgr_EgyCnsAllwdForClimaMax
+
+UInt8 Rte_CData_CELCmgr_EgyCnsAllwdForClimaMax(void);
+extern UInt8 Rte_CData_CELCmgr_TclimaMax_data;
+
+#define Rte_CData_CELCmgr_TclimaMax    Rte_CData_SwcCELCmgr_CELCmgr_TclimaMax
+
+UInt8 Rte_CData_CELCmgr_TclimaMax(void);
+
+#endif
