@@ -1,3 +1,4 @@
+Test.c 1.6 implement adding D E F to Test.c
 1
 2
 3
@@ -7,3 +8,6 @@
 A
 B
 C
+D
+E
+F
